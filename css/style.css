@@ -1,5 +1,152 @@
-.rectangle1 {
-  background-color: red;
-  height: 100px;
-  width: 100px;
+body {
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
 }
+
+h1 {
+
+}
+
+h2 {
+    color: blue;
+    font-size: 20;
+    text-align: center;
+}
+
+h3 {
+  color: dodgerBlue;
+}
+
+
+/* .projects {
+  display: flex;
+  flex-direction: column;
+  background-color: dodgerBlue;
+  border: 5px midnightblue solid;
+} */
+
+.project_1, .project_2, .project_3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+
+  /* border: 7px midnightblue solid; */
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.project_1_text, .project_2_text, .project_3_text {
+  padding: 10px;
+  margin: 5px;
+}
+
+.project_1_photo {
+
+  /* height: 200px;
+  width: 200px;
+  border: 5px midnightblue solid;
+  margin: 5px; */
+}
+
+.photo_1, .photo_2, .photo_3 {
+  height: 200px;
+  border: 5px midnightblue solid;
+  border-radius: 30px;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 340px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.project_1_game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: red;
+  border: 5px midnightblue solid;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.project_1_text {
+  border: 5px midnightblue solid;
+  padding: 10px;
+  margin: 5px;
+}
+
+.project_1_photo {
+
+  /* height: 200px;
+  width: 200px;
+  border: 5px midnightblue solid;
+  margin: 5px; */
+}
+
+.photo_1 {
+  height: 200px;
+  border: 5px midnightblue solid;
+  border-radius: 20px;
+  margin: 5px;
+} */

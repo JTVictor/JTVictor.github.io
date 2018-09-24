@@ -1,0 +1,154 @@
+.div-1 {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+
+  /* display: flex; */
+
+}
+
+.div-2 {
+  background-color: orange;
+  height: 250px;
+  width: 250px;
+
+  z-index: 1;
+
+}
+
+/* .div-3 {
+  background-color: yellow;
+  height: 300px;
+  width: 300px;
+
+  z-index: -2;
+
+}
+
+.div-4 {
+  background-color: green;
+  height: 350px;
+  width: 350px;
+
+  z-index: -3;
+
+}
+
+.div-5 {
+background-color: blue;
+height: 400px;
+width: 400px;
+
+z-index: -4;
+
+}
+
+.div-6 {
+  background-color: indigo;
+  height: 450px;
+  width: 450px;
+
+  z-index: -5;
+
+}
+
+.div-7 {
+  background-color: violet;
+  height: 500px;
+  width: 500px;
+
+  z-index: -6;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+
+
+
+
+/* .div-1 {
+  background-color: red;
+  height: 500px;
+  width: 500px;
+
+  display: flex;
+
+}
+
+.div-2 {
+  background-color: orange;
+  height: 450px;
+  width: 450px;
+
+  width: 80%
+
+}
+
+.div-3 {
+  background-color: yellow;
+  height: 400px;
+  width: 400px;
+
+}
+
+.div-4 {
+  background-color: green;
+  height: 350px;
+  width: 350px;
+
+}
+
+.div-5 {
+background-color: blue;
+height: 300px;
+width: 300px;
+
+}
+
+.div-6 {
+  background-color: indigo;
+  height: 250px;
+  width: 250px;
+
+}
+
+.div-7 {
+  background-color: violet;
+  height: 200px;
+  width: 200px;
+
+} */

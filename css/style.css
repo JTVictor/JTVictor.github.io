@@ -1,36 +1,33 @@
 
 body {
-  font-size: 14px;
-  font-family: 'Orbitron', sans-serif;
+  font-size: 22px;
+  font-family: 'Patua One', cursive;
+
+  /* font-family: 'Orbitron', sans-serif; */
+
   background-color: red;
-  color: white
+  color: white;
 }
-
-section {
-  font-size: 14px;
-  font-family: 'Orbitron', sans-serif;
-}
-
 
 .nav {
-  border: 5px solid white;
-  border-radius: 10px;
+  border: 7px solid white;
+  border-radius: 7px;
+  /* font-size: 22px; */
 }
 
 .nav ul {
   list-style: none;
   background-color: #0c1e3a;
   text-align: center;
-  padding: 0;
+  padding: 5px;
   margin: 0;
 }
 .nav li {
-  /* font-family: 'Oswald', sans-serif; */
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
   line-height: 50px;
   height: 50px;
   border-bottom: 1px solid #888;
-  /* border: 5px solid orange; */
+  font-size: 22px;
 }
 
 .nav a {
@@ -50,31 +47,6 @@ section {
   cursor: default;
 } */
 
-@media screen and (min-width: 600px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
-
-  /* Option 1 - Display Inline */
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
-
-
-
-
-
-
-
-
-
-
-
 
 
 h1 {
@@ -82,110 +54,112 @@ h1 {
   text-align: center;
   font-size: 50px;
   font-weight: 600;
+
 }
 
 h2 {
-    color: blue;
-    font-size: 20;
+    color: #62b1ea;
+    font-size: 20px;
     text-align: center;
 }
 
 h3 {
-  color: dodgerBlue;
+  color: #62b1ea;
+  font-size: 30px;
 }
 
 
 
 
 
-
-
-
-
-.title {
-    /* border: 2px solid black; */
-    /* background-size: 600% 600%; */
-    height: 700px;
-    width: 100%;
-    background-color: auto;
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
-}
-
-.title_banner {
-  background-color: auto;
-  height: 200px;
-  width: 800px;
-}
-
-#titlename {
-  font-size: 60px;
-  color: white;
-}
-
-#subtitle {
-  color: white;
-}
-
-
-
-
-
-
-
-
-
-
-/* .projects {
+.box-1 {
   display: flex;
-  flex-direction: column;
-  background-color: dodgerBlue;
-  border: 5px midnightblue solid;
-} */
-
-.project_1, .project_2, .project_3 {
-  font-family: Righteous;
-  font-size: 16px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
-
-
-  /* border: 7px midnightblue solid; */
-  padding: 10px;
-  border-radius: 30px;
-}
-
-.project_1_text, .project_2_text, .project_3_text {
-  padding: 20px;
-  margin: 5px;
-  background-color: #0c1e3a;
-  border: 5px solid white;
-  border-radius: 10px;
-}
-
-.project_1_photo, .project_2_photo, .project_3_photo {
-
-  display: flex;
-  flex-direction: row;
   align-items: center;
 
+  width: 95%;
 
-  height: 200px;
-  /* width: 200px;
-  border: 5px midnightblue solid; */
-  margin: 5px;
+  margin: 0 auto;
+  padding: 20px;
+
+  background-color: #0c1e3a;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #FFFFFF;
+  border-radius: 7px;
+}
+
+.box-2 {
+  background-color: inherit;
+  width: 700px;
+
+  margin: 20px;
+}
+
+.box-3 {
+  background-color: inherit;
+  height: 210px;
+  width: 330px;
+  margin: 20px;
+
+
+  border-style: solid;
+  border-width: 7px;
+  border-color: #FFFFFF;
+  border-radius: 7px;
 }
 
 .photo_1, .photo_2, .photo_3 {
-  height: 200px;
-  border: 5px white solid;
-  border-radius: 10px;
-  margin: 5px;
+  height: 210px;
+  width: 330px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -213,13 +187,20 @@ h3 {
   justify-content: center;
   align-items: center;
   background-color: white;
-  height: 5px;
-  width: 100%;
+  height: 7px;
+  width: 150%;
 }
 
 
 
-
+.title {
+    height: 700px;
+    width: 100%;
+    background-color: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .div0 {
@@ -227,8 +208,8 @@ h3 {
   justify-content: center;
   align-items: center;
   background-color: white;
-  height: 250px;
-  width: 850px;
+  height: 254px;
+  width: 854px;
   border-radius: 10px;
 }
 
@@ -247,8 +228,8 @@ h3 {
   justify-content: center;
   align-items: center;
   background-color: #56153a;
-  height: 230px;
-  width: 830px;
+  height: 226px;
+  width: 826px;
   border-radius: 10px;
 }
 
@@ -257,8 +238,8 @@ h3 {
   justify-content: center;
   align-items: center;
   background-color: #0c1e3a;
-  height: 220px;
-  width: 820px;
+  height: 212px;
+  width: 812px;
   border-radius: 10px;
 }
 
@@ -275,6 +256,29 @@ h3 {
 
 
 
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
 
 
 
